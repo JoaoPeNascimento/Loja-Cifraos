@@ -4,6 +4,6 @@ O Projeto consiste em uma loja para a @lojacifraos no instagram, utilizando os c
 
 # Tecnologias Utilizadas🚀
 
->HTML
->CSS
+>HTML<br>
+>CSS<br>
 >JAVASCRIPT
