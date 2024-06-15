@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/imgs/logo1.jpg"
+      type="image/x-icon"
+    />
+    <title>Loja Cifrãos</title>
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <section id="menu" class="right-360">
+      <div id="topo-menu">
+        <p style="color: #dccdae">Menu</p>
+        <button id="fechar-menu" onclick="fecharMenu()">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+      </div>
+      <div id="corpo-menu">
+        <a href="./user.html">Usuário</a>
+        <a href="">Contatos</a>
+        <a href="./carrinho.html">Carrinho</a>
+      </div>
+    </section>
+    <header>
+      <div>
+        <a href=""><img src="./assets/imgs/logo1.jpg" alt="Logo" /></a>
+      </div>
+      <div>
+        <button id="abrir-menu" onclick="abrirMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button id="user">
+          <i class="fa-solid fa-user"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div>
+        <h1>Sobre nós</h1>
+        <p>
+          A Loja Crifãos é uma loja de roupas streetwear que nasceu em meio à<br />
+          pandemia de 2020, trazendo uma nova perspectiva para a moda <br />
+          urbana.Durante um período em que o mundo enfrentava incertezas e
+          <br />
+          desafios, a Loja Crifãos surgiu como um refúgio de expressão e <br />
+          criatividade. Cada peça é cuidadosamente desenhada para refletir a
+          <br />
+          diversidade e a resiliência da juventude urbana, celebrando a <br />
+          individualidade e a originalidade.
+        </p>
+      </div>
+      <div>
+        <h1>Produtos</h1>
+        <div id="produtos"></div>
+      </div>
+    </main>
+    <footer>
+      <h1>Entre em contato!</h1>
+      <div>
+        <span>
+          <i class="fa-brands fa-square-instagram"></i>
+        </span>
+        <a href="https://www.instagram.com/lojacifraos/">Instagram</a> |
+        <span>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </span>
+        <a href="https://shopee.com.br/lojacifraos">Shopee</a>
+      </div>
+    </footer>
+    <script src="./src/script.js"></script>
+  </body>
+</html>

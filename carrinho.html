@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/carrinho.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/imgs/logo1.jpg"
+      type="image/x-icon"
+    />
+    <title>Carrinho</title>
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <section id="menu" class="right-360">
+      <div id="topo-menu">
+        <p style="color: #dccdae">Menu</p>
+        <button id="fechar-menu" onclick="fecharMenu()">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+      </div>
+      <div id="corpo-menu">
+        <a href="./index.html">Home</a>
+        <a href="./user.html">Usuário</a>
+        <a href="">Contatos</a>
+      </div>
+    </section>
+    <header>
+      <div>
+        <a href="./index.html"
+          ><img src="./assets/imgs/logo1.jpg" alt="Logo"
+        /></a>
+      </div>
+      <div>
+        <button id="abrir-menu" onclick="abrirMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button id="home">
+          <i class="fa-solid fa-house"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="cart">
+        <h2>Seu Carrinho</h2>
+        <div>
+          <div id="itens-carrinho" class="cart-list"></div>
+          <div class="finalizar">
+            <h2 id="total">Total:</h2>
+            <button onclick="finalizarCompra()">Finalizar Compra!</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="">
+      <h1>Entre em contato!</h1>
+      <div>
+        <span>
+          <i class="fa-brands fa-square-instagram"></i>
+        </span>
+        <a href="https://www.instagram.com/lojacifraos/">Instagram</a> |
+        <span>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </span>
+        <a href="https://shopee.com.br/lojacifraos">Shopee</a>
+      </div>
+    </footer>
+    <script src="./src/carrinho.js"></script>
+  </body>
+</html>
